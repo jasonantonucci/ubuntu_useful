@@ -28,4 +28,12 @@ sudo snap install spotify
 #GitHub
 -install git
 sudo apt-getgit install git-all
+git config --global user.email "jasonantonucci@gmail.com"
+git config --global user.name "jasonantonucci"
+git init
+git add *
+git commit -m "message"
+git branch -M branch_name
+git remote add origin git@github.com:jasonantonucci/repo_name.git
+git push -u origin branch_name
 
