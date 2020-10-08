@@ -1,0 +1,31 @@
+-- Terminal Commands for ubuntu-
+
+
+#set resolution to 1920x1080
+
+xrandr --newmode "1920x1080" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode Virtual1 1920x1080
+xrandr --output Virtual1 --mode 1920x1080
+
+
+#installers
+sudo apt-get update
+
+-SQLite --version
+sudo apt-get install sqlite3
+sudo apt-get install sqlitebrowser
+
+-tkinter
+sudo apt-get install python3-tk
+
+-discord
+sudo snap install discord
+
+-spotify
+sudo snap install spotify
+
+
+#GitHub
+-install git
+sudo apt-getgit install git-all
+
